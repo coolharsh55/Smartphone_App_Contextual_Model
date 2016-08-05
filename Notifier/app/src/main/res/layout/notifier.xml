@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie Name"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:minHeight="35dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:background="#EEEEEE"
+        android:textColor="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="25dp"
+        android:text="Movie Time and Location"
+        />
+
+    <TextView
+        android:background="#DDDDDD"
+        android:textColor="#000000"
+        android:id="@+id/tvTicket"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="25dp"
+        android:text="TicketID and Seat information"
+        />
+
+    <TextView
+        android:id="@+id/tvLink"
+        android:background="#CCCCCC"
+        android:textColor="#000000"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="25dp"
+        android:text="More information link"
+        />
+
+
+
+</LinearLayout>

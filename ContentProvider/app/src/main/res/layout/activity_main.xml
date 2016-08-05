@@ -1,0 +1,253 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="msc.prototype.contentprovider.MainActivity"
+    android:id="@+id/RL">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Generic"
+        android:id="@+id/textView12"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Queries : "
+        android:id="@+id/tvQueries"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Inserts : "
+        android:id="@+id/tvInsert"
+        android:layout_alignBottom="@+id/tvQueries"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="time : "
+        android:id="@+id/tvQTime"
+        android:layout_below="@+id/tvQueries"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="right"
+        android:textAlignment="gravity"
+        android:text="time :"
+        android:id="@+id/tvITime"
+        android:layout_below="@+id/tvInsert"
+        android:layout_alignLeft="@+id/tvInsert"
+        android:layout_alignStart="@+id/tvInsert" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Receive :"
+        android:id="@+id/tvReceive"
+        android:layout_below="@+id/tvQTime"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Total : "
+        android:id="@+id/tvTotal"
+        android:layout_below="@+id/tvITime"
+        android:layout_alignLeft="@+id/tvITime"
+        android:layout_alignStart="@+id/tvITime" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Contact"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/tvReceive"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Queries : "
+        android:id="@+id/tvQContact"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Inserts : "
+        android:id="@+id/tvIContact"
+        android:layout_below="@+id/textView17"
+        android:layout_alignLeft="@+id/tvTotal"
+        android:layout_alignStart="@+id/tvTotal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="time : "
+        android:id="@+id/tvTQContact"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvIContact"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="time :"
+        android:id="@+id/tvTIContact"
+        android:layout_alignStart="@+id/tvInsert"
+        android:layout_below="@+id/tvIContact"
+        android:layout_alignLeft="@+id/tvTotal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Location"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/tvTIContact"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Queries : "
+        android:id="@+id/tvQLocation"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Inserts : "
+        android:id="@+id/tvILocation"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="time :"
+        android:id="@+id/tvTILocation"
+        android:layout_alignStart="@+id/tvInsert"
+        android:layout_below="@+id/tvILocation"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="time : "
+        android:id="@+id/tvTQLocation"
+        android:layout_below="@+id/tvQLocation"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Event"
+        android:id="@+id/textView25"
+        android:layout_below="@+id/tvTILocation"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Queries : "
+        android:id="@+id/tvQEvent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView25"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Inserts : "
+        android:id="@+id/tvIEvent"
+        android:layout_alignTop="@+id/tvQEvent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="time :"
+        android:id="@+id/tvTIEvent"
+        android:layout_alignStart="@+id/tvInsert"
+        android:layout_below="@+id/tvIEvent"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="time : "
+        android:id="@+id/tvTQEvent"
+        android:layout_below="@+id/tvQEvent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        android:id="@+id/btRefresh"
+        android:layout_below="@+id/tvTIEvent"
+        android:layout_centerHorizontal="true"
+        android:onClick="click" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service : Started"
+        android:id="@+id/tbService"
+        android:layout_below="@+id/btRefresh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textOn="ON"
+        android:textOff="OFF"
+        android:checked="true"
+        android:onClick="serviceOp" />
+
+</RelativeLayout>
